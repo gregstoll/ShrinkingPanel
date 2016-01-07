@@ -1,4 +1,7 @@
 A ShrinkingPanel is like a StackPanel that can optionally shrink a child element.
+
+Available on NuGet with package ID "ShrinkingPanel"
+
 Here's how it works:
 - If all children fit in the available direction (specified by Orientation), then they all get that space.
 - If not, the child at index ShrinkingElementIndex will be shrunk so everything fits.
