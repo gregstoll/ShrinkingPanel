@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata minClientVersion="3.2">
+        <id>ShrinkingPanel</id>
+        <version>1.0.0</version>
+        <title>ShrinkingPanel</title>
+        <authors>gregstoll.com</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Like a StackPanel that can shrink a child element to fit in the allowed space.  Great for elements that can do their own scrolling - this lets you put elements below them that will always be right below them.</description>
+
+    	<projectUrl>http://github.com/gregstoll/ShrinkingPanel</projectUrl>
+	<!--<dependencies>
+		<dependency id="System.Runtime" version="4.0.20" />
+		<dependency id="System.Resources.ResourceManager" version="4.0.0" />
+		<dependency id="System.Runtime.Extensions" version="4.0.10" />
+		<dependency id="System.Runtime.WindowsRuntime" version="4.0.10" />
+	</dependencies>-->
+  </metadata>
+    <files>
+        <file src="bin\Release\ShrinkingPanel**" target="lib\uap10.0" />
+    </files>
+</package>
